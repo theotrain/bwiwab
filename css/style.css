@@ -328,3 +328,9 @@ h3 {
 
 }
 
+@media only screen and (max-device-width: 800px) {
+  #show-title {
+    color: green;
+  }
+}
+
