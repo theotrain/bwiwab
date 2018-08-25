@@ -220,8 +220,10 @@ h3 {
 /*make container margins narrow on narrow screens*/
 @media screen and (max-width: 768px) {
   .section {
-      padding-left: 20px;
-      padding-right: 20px;
+      /*padding-left: 20px;*/
+      /*padding-right: 20px;*/
+      padding-left: 0;
+      padding-right: 0;
   }
   .container {
     max-width: 100%;
@@ -263,8 +265,8 @@ h3 {
 @media screen and (max-width: 768px) {
   #show-title {
     /*color: #be268e;*/
-    width: 380px;
-    font-size: 5.2em;
+    width: 330px;
+    font-size: 4.5em;
     /*letter-spacing: .18em;*/
     line-height: 1.3em;
     text-align: right;
@@ -272,11 +274,15 @@ h3 {
     margin-right: 0;
   }
 
+  .quote {
+    font-size: 1.5em;
+  }
+
   .billboard {
     /*background-color: #80b1e0;*/
     /*color: #be268e;*/
     /*padding-bottom: 30px;*/
-    height: 450px;
+    height: 400px;
     /*background-image: url("../images/DSC_4755_small.jpg");*/
     /*background-size: cover;
     background-repeat: no-repeat;
@@ -289,8 +295,8 @@ h3 {
 @media screen and (max-width: 575px) {
   #show-title {
     color: #be268e;
-    width: 300px;
-    font-size: 4.5em;
+    width: 260px;
+    font-size: 3.8em;
     /*letter-spacing: .18em;*/
     line-height: 1.3em;
     text-align: right;
@@ -299,10 +305,10 @@ h3 {
   }
 
   .billboard {
-    height: 400px;
+    height: 350px;
   }
   .quote {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   #awards {
     flex-direction: column;
