@@ -240,7 +240,7 @@ h3 {
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-size: 1.2em;
+    /*font-size: 1em;*/
   }
 
   #nav.responsive li + li {
