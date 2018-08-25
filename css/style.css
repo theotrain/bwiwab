@@ -276,7 +276,7 @@ h3 {
     line-height: 1.3em;
     text-align: right;
     margin-top: 15px;
-    margin-right: 0;
+    margin-right: -25px;
   }
 
   .quote {
@@ -306,7 +306,7 @@ h3 {
     line-height: 1.3em;
     text-align: right;
     margin-top: 25px;
-    margin-right: 0;
+    margin-right: -25px;
   }
 
   .billboard {
