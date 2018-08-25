@@ -271,16 +271,19 @@ h3 {
   #show-title {
     /*color: #be268e;*/
     width: 330px;
-    font-size: 4.5em;
+    font-size: 4em;
     /*letter-spacing: .18em;*/
     line-height: 1.3em;
     text-align: right;
     margin-top: 15px;
     margin-right: -25px;
   }
+  body {
+    font-size: 18px;
+  }
 
   .quote {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .billboard {
@@ -301,7 +304,7 @@ h3 {
   #show-title {
     color: #be268e;
     width: 240px;
-    font-size: 3.5em;
+    font-size: 3em;
     /*letter-spacing: .18em;*/
     line-height: 1.3em;
     text-align: right;
@@ -313,7 +316,7 @@ h3 {
     height: 350px;
   }
   .quote {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   #awards {
     flex-direction: column;
