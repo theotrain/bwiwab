@@ -297,6 +297,9 @@ h3 {
     background-position: center center;*/
     /*background-attachment: fixed;*/
   }
+  h3 {
+    font-size: 1.15em;
+  }
 
 }
 /*make banner title smaller for small screens*/
