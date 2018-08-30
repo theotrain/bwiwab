@@ -172,16 +172,34 @@ h3 {
 }
 
 #reviews .attribution {
-  padding: 20px 12px;
+  padding: 30px 0 20px 12px;
 }
 
 #reviews .author {
   color: #808184;
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+#reviews .publication {
+  color: #c0dbec;
+  font-weight: 800;
+  font-size: 1.2em;
+  /*line-height: 1em;*/
 }
 #reviews .link {
   font-size: .8em;
+}
+#reviews ul {
+  /*font-weight: 600;*/
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+  padding: none;
+  -webkit-padding-start: 0;
+  margin: 15px 0 0 0;
+  line-height: 1.5em;
 }
 #photos {
   text-align: center;
@@ -283,7 +301,20 @@ h3 {
     margin-right: -25px;
   }
   body {
-    font-size: 17px;
+    font-size: 16px;
+  }
+  /*.container-fluid .magenta {
+    padding: none;
+  }*/
+  #reviews .author {
+    font-size: 1.3em;
+  }
+  #reviews .publication {
+    font-size: 1.2em;
+  }
+  #reviews .attribution {
+    display: block;
+    /*vertical-align: top;*/
   }
 
   .quote {
@@ -347,6 +378,29 @@ h3 {
     /*margin-bottom: 30px;*/
   }
 
+  /*#reviews .author {
+    font-size: 1.3em;
+  }
+  #reviews .publication {
+    font-size: 1.2em;
+  }*/
+  #reviews .attribution {
+    display: inline-block;
+    /*vertical-align: top;*/
+  }
+
 }
 
+@media screen and (max-width: 800px) {
+  #reviews .author {
+    font-size: 1.1em;
+  }
+  #reviews .publication {
+    font-size: 1em;
+  }
+  #reviews .attribution {
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+  }
 
+}
